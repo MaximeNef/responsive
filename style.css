@@ -1,0 +1,71 @@
+
+body {
+    background-color: burlywood;
+  }
+@media only screen and (max-width: 600px){
+    
+    
+body{
+    background-color: red;
+}
+#small{
+    font-size: small;
+    
+}
+#medium{
+    font-size: small;
+}
+#large{
+    font-size: small;
+    
+}
+}
+
+@media only screen and (min-width: 600px) and (max-width:800px){
+    body{ 
+        background-color:green;
+    
+    }
+#medium{
+    font-size: medium ;
+    display: inline-block;
+    width: 33%;
+}
+#small{
+    font-size: medium ;
+    display: inline-block;
+    width: 66%;
+}
+#large{
+    font-size: medium ;
+    display: inline-block;
+    width: 100%;
+}
+.smallmed{
+    display: flex;
+}
+}
+
+
+
+@media only screen and (min-width: 800px){
+body{ 
+    background-color: blue;
+}
+#large{
+    font-size: large;
+    display: inline-block;
+    width: 33%;
+}
+#small{
+    font-size: large;
+    display: inline-block;
+    width: 33%;
+}
+#medium{
+    font-size: large;
+    display: inline-block;
+    width: 33%;
+}
+}
+
